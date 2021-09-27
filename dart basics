@@ -1,0 +1,118 @@
+void main(){
+    List<int> nums = [1,2,2,4,5];
+    (<string><bool>)
+    print(nums);
+    ... [1,2,2,4,5]
+    print(nums[3])
+    ... 4
+    //change an element in array 
+    nums[3] = 17
+    print(nums);
+    [1, 2, 2, 17, 5]
+    print(nums[0] + nums[3]);
+    ...18
+    //to add
+    num.add(15)
+    ...[1, 2, 2, 17, 5,15]
+    nums.remove(2);
+    ...[1, 2, 17, 5,15]
+    nums.indexOf(5)
+    ...3
+    
+     print(nums.contains(5));
+     ... true
+
+     <<<<<<functions>>>>>>>
+     //it's better to write them before the void main
+     ex:
+     void lala(){
+     print("i love u ");
+     }
+     void main(){
+     
+     print("hey")
+     lala()
+     print ("bye!")
+     ... hey 
+     i love you 
+     bye
+    
+     }
+
+     <<<<<<paramaters and arguments>>>>>>>
+
+     void sayhi(string name, int age){          الي جوا الاقواس اسمه باراماتر ومعناه فاريابل بس جوا فانكشن علشان كده اسمه باراماتر 
+     print("hi ${name}! your age is ${age}");
+     }
+ 
+     void main(){
+     sayhi("nada", 25);                       اللي جوا القوس وهو الاجابة او المعلومة اللي حطتها للفايرابل(المتغير) واسمه ارجيومنت
+     sayhi("hoda", 20);
+     }
+     ...hi nada!your are is 25
+        hi hoda!your age is 20
+        
+        
+        
+          <<<<<< a prompt functions>>>>>>>
+
+string prompt(string promptText){
+print(promptText);
+string answer = stdin.readLineSync();
+return answer;
+}
+
+void main(){
+string color = prompt("enter a color");
+print("the color is ${color}");
+... enter a color 
+blue
+the color is blue
+
+
+
+   <<<<<< IF >>>>>>>
+   
+   void main(){
+   bool issmart = true;
+    
+    if(issmart){
+    print("you are smart!");
+    }else{
+    print("you still can be ..! ");
+    }
+    
+    
+   }
+... you are smart!
+
+   <<<<<< AND & OR  >>>>>>>
+
+   void main(){
+   bool issmart = true;
+   bool isstudent = true;
+    
+    if(issmart && is studentw){
+    print("you are a smart student !");
+    ... you are a smart student
+    
+}
+
+
+   void main(){
+   bool issmart = true;
+   bool isstudent = true;
+    
+    if(issmart // is student){
+    print("you are eather smart or student !");
+    
+
+
+
+
+
+
+
+
+}
+
