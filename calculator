@@ -32,3 +32,35 @@ print (num1 / num2);
 
 
 }
+/////////////
+
+switch(op){
+
+case '+' :
+print (num1 + num2):
+break;
+
+case '-' :
+print (num1 - num2);
+break;
+
+case '*' :
+print (num1 * num2);
+break;
+
+case '/' :
+print (num1 / num2);
+break;
+defualt
+print("hey i see you ! write only +,-,*,/")
+}
+
+
+
+
+
+
+
+
+
+
