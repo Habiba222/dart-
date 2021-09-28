@@ -1,0 +1,34 @@
+string prompt(string promptText){
+print("the prompt is ${promptText}");
+string answer = stdin.readLineSync();
+return answer;
+{
+
+
+double promptdouble(){
+print("enter a number : ");
+double Mynum = double.parce(stdin.readLineSync());
+return Mynum;
+{
+
+void main(){
+
+
+double(num1) = promptdouble();
+double(num2) = promptdouble();
+string op = prompt("enter an opperation (+,-,*,/)");
+
+
+if (op == +);{
+print (num1 + num2):
+}else if (op == -){
+print (num1 - num2);
+}ele if (op == *){
+print (num1 * num2);
+}else if (op == /){
+print (num1 / num2);
+}else {
+}print("hey i see you ! write only +,-,*,/");
+
+
+}
