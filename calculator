@@ -1,59 +1,36 @@
-string prompt(string promptText){
-print("the prompt is ${promptText}");
-string answer = stdin.readLineSync();
-return answer;
-{
+import 'dart:io';
+import 'dart:math';
 
+void main() {
+  double Number() {
+    print("Enter a number:");
+    return double.parse(stdin.readLineSync()!);
+  }
 
-double promptdouble(){
-print("enter a number : ");
-double Mynum = double.parce(stdin.readLineSync());
-return Mynum;
-{
+  double num1 = Number();
 
-void main(){
+  print("Operator (+,-,*,/):");
+  String? operator = stdin.readLineSync();
 
+  double num2 = Number();
 
-double(num1) = promptdouble();
-double(num2) = promptdouble();
-string op = prompt("enter an opperation (+,-,*,/)");
+  if (operator == '+') {
+    print("the result is : ");
+    print(num1 + num2);
+  } else if (operator == '-') {
+    print("the result is : ");
+    print(num1 - num2);
+  } else if (operator == '*') {
+    print("the result is : ");
+    print(num1 * num2);
+  } else if (operator == '/') {
+    print("the result is : ");
 
-
-if (op == +);{
-print (num1 + num2):
-}else if (op == -){
-print (num1 - num2);
-}ele if (op == *){
-print (num1 * num2);
-}else if (op == /){
-print (num1 / num2);
-}else {
-}print("hey i see you ! write only +,-,*,/");
-
-
+    print(num1 / num2);
+  } else
+    print("invalid operator!");
 }
-/////////////
 
-switch(op){
-
-case '+' :
-print (num1 + num2):
-break;
-
-case '-' :
-print (num1 - num2);
-break;
-
-case '*' :
-print (num1 * num2);
-break;
-
-case '/' :
-print (num1 / num2);
-break;
-defualt
-print("hey i see you ! write only +,-,*,/")
-}
 
 
 
