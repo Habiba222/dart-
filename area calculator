@@ -1,0 +1,28 @@
+import 'dart:io';
+import 'dart:math';
+
+void main() {
+  print(
+      "choose which shape to calculate it's Area : for Circle type'1', for Rectangle type'2' and for Triangle type'3'");
+  var shape = stdin.readLineSync();
+  if (shape == "1") {
+    print("Entre the Radius of the circle");
+    double rad = double.parse(stdin.readLineSync()!);
+    var result1 = (3.14 * rad * rad);
+    print("the answer is : $result1");
+  } else if (shape == "2") {
+    print("please Enter the hight of the Rectangle");
+    double hight = double.parse(stdin.readLineSync()!);
+    print("great ! now Enter the width of the Rectangle");
+    double width = double.parse(stdin.readLineSync()!);
+    var result2 = (hight * width);
+    print("the answer is : $result2");
+  } else {
+    print("please Enter the the base of the right angled Triangle");
+    double base = double.parse(stdin.readLineSync()!);
+    print("great now Enter the the hight of the right angled Triangle");
+    double hightt = double.parse(stdin.readLineSync()!);
+    var result3 = (.5 * base * hightt);
+    print("the result is : $result3");
+  }
+}
