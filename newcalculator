@@ -1,0 +1,38 @@
+import 'dart:io';
+import 'dart:math';
+
+op(String opText) {
+  print(opText);
+  String operationanswer = stdin.readLineSync()!;
+  return operationanswer;
+}
+
+double doubleInput() {
+  print("Enter a number : ");
+  double userNum = double.parse(stdin.readLineSync()!);
+  return userNum;
+}
+
+void main() {
+  double num1 = doubleInput();
+  double num2 = doubleInput();
+  String operation = op("Enter an operation ( +, -, *, /)");
+
+    if (operation == '+') {
+    print("the result is : ");
+    print(num1 + num2);
+  } else if (operation == '-') {
+    print("the result is : ");
+    print(num1 - num2);
+    print("or");
+    print(num2-num1);
+  } else if (operation == '*') {
+    print("the result is : ");
+    print(num1 * num2);
+  } else if (operation == '/') {
+    print("the result is : ");
+
+    print(num1 / num2);
+  } else
+    print("invalid operator!");
+}
